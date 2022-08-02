@@ -1,0 +1,13 @@
+name: VariableAPI
+version: '${project.version}'
+main: me.floof.varapi.VariableAPI
+api-version: 1.17
+authors: [ Floof ]
+description: API for storing all Variables, Locations and Data for Development
+website: https://github.com/FloofCat
+commands:
+  varapi:
+    permission-message: No permissions allowed! Meow!
+    permission: vars.op
+    usage: /command
+    description: Variable API Usage
